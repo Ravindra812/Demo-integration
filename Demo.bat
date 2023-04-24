@@ -10,6 +10,6 @@ set msg="%2"
 REM set msg=PSFT Team
 echo Hello %Name%, Welcome to %msg%...! 
 REM echo  %usr_id%
-java -jar "sample.jar"
+java -jar "%mypath:~0,-1%\sample.jar"
 exit
 pause
