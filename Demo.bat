@@ -12,5 +12,6 @@ echo Hello %Name%, Welcome to %msg%...!
 REM echo  %usr_id%
 java -jar "%mypath:~0,-1%\sample.jar"
 echo Hi Ravindra!
+echo Thank you
 exit
 pause
